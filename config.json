@@ -14,8 +14,7 @@
     "lingering-mode": "last-modified",
     "feature-under-development": "automation",
     "recipients" : [
-      "recipient1@email.com",
-      "recipient2@email.com"
+      "biazottoj03@gmail.com",
     ],
     "email-body-template": {
       "label": "Hi,\n\n/issue_label has been identified in issue #/issue_number with title: '/issue_title' and description: '/issue_description', created by @/issue_author in the /issue_repository repository.\nLink to the issue: /issue_link\n\nThis is an automated email. Replies to this message will not be read.",

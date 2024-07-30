@@ -4,7 +4,7 @@
   "label-location": "label",
   "auto-label": false,
   "initial-message": true,
-  "send-emails": true,
+  "send-emails": false,
   "when-to-send": "all",
   "email-info": {
     "which-labels": "specific",

@@ -52,7 +52,7 @@ Edit the `Bot/config.json` file to configure the bot's behavior:
   * "merged":      to set whether the bot's ML model should generate a single label based on the title and the description of the issue
   * "both":        to set whether the bot's ML model should generate two separate labels based on the title and the description of the issue
 - `endpoint`: URL of the ML model's endpoint (*string*)
-- `label-location`: JSON path in the ML model's response for the generated label (*string*)
+- `label-location`: JSON path in the ML model's response for the generated label (*string*) (*only used if a different ML model is installed*)
 - `auto-label`: *Boolean* to set if the bot should automatically label new issues
 - `initial-message`: *Boolean* to set if the bot should create a comment message when an issue is created
 - `send-emails`: *Boolean* to set if the bot should send email notifications
